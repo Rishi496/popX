@@ -1,0 +1,92 @@
+.account-container {
+  display: flex;
+  flex-direction: column;
+  height: 93vh;
+}
+.account_head > h1 {
+  padding: 20px;
+  background-color: white;
+}
+
+.account-content {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.upload-label {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #eee;
+  transition: background-color 0.3s ease;
+}
+
+.upload-label:hover {
+  background-color: #ddd;
+}
+
+.camera-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  align-items: center;
+}
+
+.user-info h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.user-info p {
+  margin: 0;
+  font-size: 14px;
+  color: gray;
+}
+
+.bio-text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+  width: 96%;
+  text-align: center;
+  justify-content: center;
+  margin: 5px;
+}
+@media screen and (min-width:760px) {
+  .account-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+  }
+  .account-content {
+ width: 35%;
+ background-color: whitesmoke;
+ height: 50%;
+  }
+}
